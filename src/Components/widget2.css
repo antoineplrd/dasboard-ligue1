@@ -1,0 +1,92 @@
+body{
+  height: 100vh;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+.tableau_style2{
+  border-collapse: separate;
+  border-spacing: 0px 20px;
+  cursor: collapse;
+  margin: 15px auto;
+  width: 100%;
+}
+
+
+.local_name{
+  padding-right: 0.5rem;
+}
+.local_logo{
+  padding-left: 0.5rem;
+  border-radius: 0.5rem  0 0 0.5rem;
+}
+.visitor_name{
+  margin-right: 0.5rem;
+  text-align: right;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.visitor_logo{
+  padding-right: 0.5rem;
+}
+.vs{
+  text-align: center;
+    font-weight: bold;
+    border-left-style: none;
+    border-right-style: none;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.local_team_score{
+    text-align: center;
+    font-weight: bold;
+    border-left-style: none;
+    border-right-style: none;
+    margin-left: 0.5rem;
+}
+.visitor_team_score{
+  text-align: center;
+    font-weight: bold;
+    border-left-style: none;
+    border-right-style: none;
+    margin-right: 0.5rem;
+    text-align: right;
+}
+.table>:not(caption)>*>* {
+  padding: 0.5rem;
+}
+.table-responsive-sm{
+  overflow-x: auto;
+}
+.row_result{
+  background-color: #FFFFFF;
+  color: #02153C;
+  height: 3.2rem;
+}
+.match_time{
+  font-weight: bold;
+  padding-right: 0.5rem;
+  font-size: 0.5rem;
+  padding-left: 0.5rem;
+}
+.match_day{
+  font-weight: bold;
+  font-size: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.title_last_match{
+  font-weight: bold;
+  color: #02153C;
+  text-align: left;
+  caption-side: top;
+}
+
+.row_result .more_infos {display: none;}
+.row_result:hover .more_infos{
+  position:absolute;
+  background-color: white;
+  display:inline;
+  border:2px solid green;
+  left: 50%;
+  top:30%
+}

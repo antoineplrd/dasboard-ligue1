@@ -1,0 +1,83 @@
+.global{
+    text-align: center;
+}
+
+.Matchs{
+    width: 65em;
+    height: 4em;
+    background-color:#476e4a;
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+
+
+.ListMatchs{
+    display: flex; /* met les affichage sur la meme ligne */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px; /* decaler du boutton */
+
+
+}
+
+.ListMatchs button{
+ 
+    width: 5em;
+    height: 4em;
+    background-color: #476e4a;
+    padding: 1em;
+    border: 2px solid black;
+    color: white;
+}
+
+.MatchContainer{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+
+}
+
+#btn
+{
+    border-left: none;
+}
+
+#btn2:hover
+{
+background-color: #CAEFC4;
+
+}
+#btn2
+{
+background-color: #FFF;
+width: 200px;
+height: 50px;
+text-align: center;
+font-weight: bold;
+}
+
+
+.size{
+    font-size: 1.2em;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.design{
+    margin-top: 25px;
+    padding-left: 10px;
+
+}
+
+input
+{
+  height: 50px;
+  width: 300px;
+  font-size: 3.5em;
+  background-color: #EEFFEC;
+  
+}
+
+

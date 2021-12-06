@@ -1,0 +1,70 @@
+body{
+  height: 100vh;
+  font-family: Arial, Arial, Helvetica, sans-serif;
+}
+#table-wrapper{
+  position: relative;
+}
+#table-scroll{
+  height: 400px;
+  overflow: auto;
+  margin: 10px auto;
+}
+.tableau-style{
+  border-collapse: collapse;
+  width: 100%;
+  cursor: collapse;
+  border: 3px solid #02153C;
+  font-size: 10px;
+}
+.table_title  {
+  background-color: #02153C;
+  color: #CEFB03;
+}
+.row_info{
+  background-color: #ffffff;
+  color: #02153C;
+}
+.th_chiffre  {
+  padding: 15px 10px;
+  text-align: center;
+}
+.th_pos{
+  text-align: center;
+}
+.th_team{
+  text-align: center;
+  padding-right: 30px;
+}
+.position{
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #f1f1f1;
+}
+.team_logo{
+  padding-left: 10px;
+  font-weight: bold;
+  border: 2px solid #f1f1f1;
+  border-right: none;
+
+}
+.information {
+  padding: 4px 0px;
+  text-align: center;
+  border: 2px solid #f1f1f1;
+}
+
+.team_name_W1{
+  margin-left: 7px;
+  font-weight: bold;
+  border: 2px solid #f1f1f1;
+  border-left: none;
+}
+.title_classement{
+  font-weight: bold;
+  color: #02153C;
+  text-align: center;
+  font-size: 0.8em;
+  caption-side: top;
+  margin-top: 30px;
+}
